@@ -15,5 +15,17 @@ body {
 .dolni { background-color: #e74c3c;}
 
 /* ---------------------------------------------------- */
-
-
+.kontejner {
+  display: flex;
+}
+.levy,
+.pravy {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+  flex-shrink: 0;
+}
+.horni,
+.dolni {
+  flex-basis: 50%;
+}

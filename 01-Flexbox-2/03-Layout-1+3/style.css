@@ -16,4 +16,17 @@ body {
 .treti { background-color: #8e44ad;}
 
 /* ---------------------------------------------------- */
+.kontejner {
+  display: flex;
+  flex-wrap: wrap;
+}
+.horni {
+  flex-basis: 100%;
+  flex-shrink: 0;
+}
+.prvni,
+.druhy,
+.treti {
+  flex-basis: calc(100%/3);
+}
 
